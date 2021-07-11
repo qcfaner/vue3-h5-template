@@ -1,1 +1,10 @@
 /* 主题样式 */
+html, body, #app, .page-container {
+  height: 100%;
+  font-size: 30px;
+}
+
+.page-container {
+  background-color: #fff;
+  height: 100%;
+}
