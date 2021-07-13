@@ -2,7 +2,11 @@
  * @description automatically import public resources
  */
 
+import FastClick from 'fastclick';
+
 export default (app) => {
+    
+    FastClick.attach(document.body);
     
     // import the style files
     require("@/assets/css/normalize.css");

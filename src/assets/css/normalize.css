@@ -46,6 +46,8 @@ h1 {
   margin: 0.67em 0;
 }
 
+h1,h2,h3,h4,h5,h6 { margin: 0 }
+
 /* Grouping content
    ========================================================================== */
 
@@ -146,7 +148,7 @@ sup {
    ========================================================================== */
 
 /**
- * Remove the border on images inside links in IE 10.
+ * Remove the border on img inside links in IE 10.
  */
 
 img {

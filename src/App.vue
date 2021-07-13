@@ -1,11 +1,16 @@
 <template>
-  <Layout></Layout>
+  <AppLayout></AppLayout>
 </template>
 
 <script>
-import Layout from "@/layout"
+import AppLayout from "@/layout/appLayout"
+import {useStore} from "vuex";
 export default {
-  components: { Layout }
+  components: { AppLayout },
+  setup(){
+    const store = useStore();
+    store.dispatch('appStore/getDeviceInfo')
+  }
 }
 </script>
 
